@@ -13,6 +13,10 @@ This pip installs all the required packages listed in the requirements.txt file.
 ```python
 pip install -r requirements.txt
 ```
+Make sure that the appropriate Kaggle dataset is downloaded from the following link as well:
+https://www.kaggle.com/datasets/tjkyner/bachelor-degree-majors-by-age-sex-and-state?resource=download
+
+Store this dataset in the same folder as the main.py file.
 
 ### Dependencies
 
@@ -45,7 +49,7 @@ tzdata==2024.1
 
 ### Installing
 
-* No installing required other than python and the relevant libraries mentioned above.
+* No installing required other than python 3.12 and the relevant libraries mentioned above.
 
 ### Executing program
 The following runs the main.py file.
@@ -53,6 +57,7 @@ The following runs the main.py file.
 python main.py
 ```
 * If there is an error, please refer to the above required packages in order for the program to run smoothly.
+* Remember to ensure that the dataset kaggle file is also downloaded under the Getting started section above.
 
 ## Help
 
